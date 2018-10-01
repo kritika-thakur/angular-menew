@@ -1,0 +1,16 @@
+div.b {
+    text-align: right;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
+    margin:16px;
+}
+h4.bol {
+    white-space: nowrap; 
+    width: 150px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

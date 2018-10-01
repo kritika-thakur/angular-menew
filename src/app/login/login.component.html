@@ -1,0 +1,9 @@
+<div class="login-wrap">
+    <h2>{{loginTxt}}</h2>
+    
+    <div class="form">
+        <input [(ngModel)]="login.phonenumber" placeholder="PhoneNumber" maxlength="10">
+        <input [(ngModel)]="login.password" placeholder="Password">
+      <button (click)="loginMethod()"> Sign in </button>
+    </div>
+  </div>
